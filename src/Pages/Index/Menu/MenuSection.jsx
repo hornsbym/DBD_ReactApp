@@ -1,5 +1,6 @@
 import React from "react"
 import MenuTable from "./MenuTable"
+import SideTable from "./SideTable"
 import "./MenuSection.css"
 
 class MenuSection extends React.Component {
@@ -22,6 +23,7 @@ class MenuSection extends React.Component {
                     </div>
                 </header>
                 <MenuTable></MenuTable>
+                <SideTable></SideTable>
                 <div className="row justify-content-center">
                     <div className="info_paragraphs col-md-8 ">
                         <p>
