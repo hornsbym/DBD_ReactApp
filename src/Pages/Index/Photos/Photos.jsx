@@ -11,7 +11,7 @@ import photo6 from "./img/20190328_012841.jpg"
 class Photos extends React.Component {
     render() {
         return (
-            <div className="container">
+            <div id="photos" className="container">
                 <div className="row justify-content-center">
                     <header>
                         <h2><span className="green_text">Photo Gallery</span></h2>
@@ -19,26 +19,26 @@ class Photos extends React.Component {
                 </div>
                 <div className="row">
                     <figure className="col-md-6">
-                        <img src={photo1} alt="" />
+                        <img className="img-responsive" src={photo1} alt="" />
                     </figure>
                     <figure class="col-md-6">
-                        <img src={photo2} alt="" />
+                        <img className="img-responsive" src={photo2} alt="" />
                     </figure>
                 </div>
                 <div className="row">
                     <figure className="col-md-6">
-                        <img src={photo3} alt="" />
+                        <img className="img-responsive" src={photo3} alt="" />
                     </figure>
                     <figure class="col-md-6">
-                        <img src={photo4} alt="" />
+                        <img className="img-responsive" src={photo4} alt="" />
                     </figure>
                 </div>
                 <div className="row">
                     <figure className="col-md-6">
-                        <img src={photo5} alt="" />
+                        <img className="img-responsive" src={photo5} alt="" />
                     </figure>
                     <figure class="col-md-6">
-                        <img src={photo6} alt="" />
+                        <img className="img-responsive" src={photo6} alt="" />
                     </figure>
                 </div>
             </div>

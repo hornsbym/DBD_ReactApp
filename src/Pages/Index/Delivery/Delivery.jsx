@@ -3,7 +3,7 @@ import React from "react"
 class Delivery extends React.Component {
     render() {
         return (
-            <div className="container">
+            <div id="delivery" className="container">
                 <div className="row justify-content-center">
                     <header>
                         <h2 className="green_text">Delivery</h2>

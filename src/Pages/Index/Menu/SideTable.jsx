@@ -48,16 +48,18 @@ class SideTable extends React.Component {
 
     render() {
         return (
-            <table className="table">
-                <thead>
-                    <tr>
-                        <th className="table_title">Sides</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    {this.state.sideItems}
-                </tbody>
-            </table>
+            <div className="table-responsive col-md-6">
+                <table className="table">
+                    <thead>
+                        <tr>
+                            <th className="table_title">Sides</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {this.state.sideItems}
+                    </tbody>
+                </table>
+            </div>
         )
     }
 }

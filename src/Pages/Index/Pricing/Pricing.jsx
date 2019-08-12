@@ -1,19 +1,25 @@
 import React from "react"
 
 class Pricing extends React.Component {
-    render() {
-        return(
-            <section id="pricing">
-            <header>
-              <h2><span class="greenText">Pricing</span></h2>
-            </header>
-            <div class="info_paragraphs">
-              <p>
-                Our meals are prepared with value in mind. Each portion will suit a standard adult
-                appetite… no microportioning! Please see our pricing guide below. (Tax is included)
+  render() {
+    return (
+      <div id="pricing" className="container">
+        <div className="row justify-content-center">
+          <header>
+            <h2><span className="green_text">Pricing</span></h2>
+          </header>
+        </div>
+        <div className="row justify-content-center">
+          <div className="col-md-8">
+            <p className="info_paragraphs">
+              Our meals are prepared with value in mind. Each portion will suit a standard adult
+              appetite… no microportioning! Please see our pricing guide below. (Tax is included)
               </p>
-            </div>
-            <table>
+          </div>
+        </div>
+        <div className="row justify-content-center">
+          <div className="table-responsive col-md-4">
+            <table className="table">
               <tbody>
                 <tr>
                   <th>Adult's Entrees</th>
@@ -33,9 +39,11 @@ class Pricing extends React.Component {
                 </tr>
               </tbody>
             </table>
-          </section>
-        )
-    }
+          </div>
+        </div>
+      </div>
+    )
+  }
 }
 
 export default Pricing;

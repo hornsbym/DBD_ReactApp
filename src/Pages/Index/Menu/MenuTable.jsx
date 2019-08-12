@@ -39,7 +39,6 @@ class MenuTable extends React.Component {
                         var array = []
 
                         var menu = menu.entrees
-                        var sides = menu.sides
                         var key;
 
                         for (key in jsonKeys) {
@@ -49,7 +48,7 @@ class MenuTable extends React.Component {
 
                             day = capitalize(day)
                             var entree = menuItem.meal
-                            var protein = menuItem.protein
+                            var protein = menuItem.proteins
                             var carbs = menuItem.carbs
                             var fats = menuItem.fats
                             var calories = menuItem.calories

@@ -6,24 +6,44 @@ import "./MenuSection.css"
 class MenuSection extends React.Component {
     render() {
         return (
-            <div id="health" className="container">
+            <div id="menu" className="container">
                 <header>
-                    <div class="row justify-content-center">
-                        <h2><span class="green_text">Healthy Selections</span></h2>
-                    </div>
-                    <div class="row justify-content-center">
-                        <div class="info_paragraphs col-md-8">
-                            <p>
-                                In addition to our regular daily delivery menu, we are pleased to offer a "healthy selections" menu
-                                specifically formulated for our Bodyplex, Burn Boot Camp, and Fit Body Boot Camp customers. This menu follows a similar
-                                flavor profile to our "balanced selections" menu while keeping calories and portion control in mind.
-                                This menu also follows our Friday order cut-off but is delivered on Monday each week.
-                            </p>
-                        </div>
+                    <div className="row justify-content-center">
+                        <h2><span className="green_text">Menu</span></h2>
                     </div>
                 </header>
-                <MenuTable></MenuTable>
-                <SideTable></SideTable>
+                <div className="row justify-content-center">
+                    <h4>Entrees</h4>
+                </div>
+                <div className="row justify-content-center">
+                    <MenuTable></MenuTable>
+                </div>
+                <div className="row justify-content-center">
+                    <h4>Sides</h4>
+                </div>
+                <div className="row justify-content-center table-responsive">
+                    <table className="table">
+                        <thead>
+                            <tr>
+                                <th className="table_title">Side</th>
+                                <th className="table_title">Gluten free?</th>
+                                <th className="table_title">Fat</th>
+                                <th className="table_title">Carbs</th>
+                                <th className="table_title">Protein</th>
+                                <th className="table_title">Calories</th>
+                            </tr>                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Garden salad</td>
+                                <td>Yes</td>
+                                <td>4</td>
+                                <td>2</td>
+                                <td>0</td>
+                                <td>50</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
                 <div className="row justify-content-center">
                     <div className="info_paragraphs col-md-8 ">
                         <p>
@@ -34,19 +54,24 @@ class MenuSection extends React.Component {
                     </div>
                 </div>
                 <div className="row justify-content-center">
-                    <table className="table col-md-4 text-center">
-                        <tbody>
-                            <tr>
-                                <td>Chicken Tenders</td>
-                            </tr>
-                            <tr>
-                                <td>Macaroni and Cheese</td>
-                            </tr>
-                            <tr>
-                                <td>Spaghetti and Meatballs</td>
-                            </tr>
-                        </tbody>
-                    </table>
+                    <div className="table-responsive col-md-4">
+                        <table className="table">
+                            <thead>
+                                <th>Kid's Menu</th>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Chicken Tenders</td>
+                                </tr>
+                                <tr>
+                                    <td>Macaroni and Cheese</td>
+                                </tr>
+                                <tr>
+                                    <td>Spaghetti and Meatballs</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
                 <div className="row justify-content-center">
                     <p>

@@ -5,3 +5,9 @@
 .navbar-brand {
     background-color: rgb(60, 127, 28);
 }
+
+@media (max-width: 576px) {
+    .navbar {
+        visibility: hidden;
+    }
+}

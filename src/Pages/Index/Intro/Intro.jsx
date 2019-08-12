@@ -5,9 +5,9 @@ import "./Intro.css"
 class Intro extends React.Component {
     render() {
         return (
-                <div className="container">
+                <div id="intro" className="container">
                     <div className="row justify-content-center">
-                        <figure id="intro_fig" class="col-md-4">
+                        <figure id="intro_fig" class="col-md-5">
                             <img src={logo} className="img-responsive" alt="The Dinners by Derek logo" />
                         </figure>
                     </div>
