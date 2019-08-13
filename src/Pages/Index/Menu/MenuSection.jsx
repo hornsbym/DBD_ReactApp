@@ -21,28 +21,31 @@ class MenuSection extends React.Component {
                 <div className="row justify-content-center">
                     <h4>Sides</h4>
                 </div>
-                <div className="row justify-content-center table-responsive">
-                    <table className="table">
-                        <thead>
-                            <tr>
-                                <th className="table_title">Side</th>
-                                <th className="table_title">Gluten free?</th>
-                                <th className="table_title">Fat</th>
-                                <th className="table_title">Carbs</th>
-                                <th className="table_title">Protein</th>
-                                <th className="table_title">Calories</th>
-                            </tr>                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>Garden salad</td>
-                                <td>Yes</td>
-                                <td>4</td>
-                                <td>2</td>
-                                <td>0</td>
-                                <td>50</td>
-                            </tr>
-                        </tbody>
-                    </table>
+                <div className="row justify-content-center">
+                    <div className="table-responsive">
+                        <table className="table">
+                            <thead>
+                                <tr>
+                                    <th className="table_title">Side</th>
+                                    <th className="table_title">Gluten free?</th>
+                                    <th className="table_title">Fat</th>
+                                    <th className="table_title">Carbs</th>
+                                    <th className="table_title">Protein</th>
+                                    <th className="table_title">Calories</th>
+                                </tr>                        </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Garden salad</td>
+                                    <td>Yes</td>
+                                    <td>4</td>
+                                    <td>2</td>
+                                    <td>0</td>
+                                    <td>50</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
                 </div>
                 <div className="row justify-content-center">
                     <div className="info_paragraphs col-md-8 ">
