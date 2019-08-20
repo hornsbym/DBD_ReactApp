@@ -1,4 +1,5 @@
 import React from "react"
+import "./Pricing.css"
 
 class Pricing extends React.Component {
   render() {
@@ -32,10 +33,6 @@ class Pricing extends React.Component {
                 <tr>
                   <th>Side Items</th>
                   <td>$2.50</td>
-                </tr>
-                <tr>
-                  <th>Desserts</th>
-                  <td>$1.25</td>
                 </tr>
               </tbody>
             </table>

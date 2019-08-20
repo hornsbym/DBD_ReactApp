@@ -1,5 +1,5 @@
 import React from 'react'
-import './App.css'
+import './Index.css'
 
 import Navbar from "./Navbar/Navbar"
 import Intro from "./Intro/Intro"
@@ -22,8 +22,8 @@ class App extends React.Component {
           <MenuSection></MenuSection>
           <Pricing></Pricing>
           <Photos></Photos>
-          <Order></Order>
           <Delivery></Delivery>
+          <Order></Order>
           <Footer></Footer>
         </div>
       </div>

@@ -1,6 +1,5 @@
 import React from "react"
 import MenuTable from "./MenuTable"
-import SideTable from "./SideTable"
 import "./MenuSection.css"
 
 class MenuSection extends React.Component {
@@ -27,7 +26,7 @@ class MenuSection extends React.Component {
                             <thead>
                                 <tr>
                                     <th className="table_title">Side</th>
-                                    <th className="table_title">Gluten free?</th>
+                                    <th className="table_title">Gluten free</th>
                                     <th className="table_title">Fat</th>
                                     <th className="table_title">Carbs</th>
                                     <th className="table_title">Protein</th>

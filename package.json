@@ -6,11 +6,12 @@
     "bootstrap": "^4.3.1",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
+    "react-router-dom": "^5.0.1",
     "react-scripts": "3.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-scripts build && cp -r /Users/mithorns1/Documents/Github/DBD_FULL_APP/DBD_ReactApp/build /Users/mithorns1/Documents/Github/DBD_FULL_APP/DBD_Express_App",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
