@@ -13,7 +13,7 @@ class Delivery extends React.Component {
                     <p className="info_paragraphs col-md-8">
                         Currently, we are delivering Mondays and Thursdays. Selections from the menu that are marked ‘Monday - Wednesday’
                         will be delivered Monday, and selections marked ‘Thursday - Sunday’ will be delivered Thursday.
-                        'Late week orders' may also be placed prior to Tuesday at 9 PM for Thursday delivery.
+                        'Late week orders' may also be placed prior to Monday at 9 PM for Thursday delivery.
                     </p>
                 </div>
                 <div className="row justify-content-center">
