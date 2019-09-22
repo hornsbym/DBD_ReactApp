@@ -3,12 +3,47 @@ import MenuTable from "./MenuTable"
 import "./MenuSection.css"
 
 class MenuSection extends React.Component {
+    constructor() {
+        super()
+        this.state = {
+            week: null,
+            weekString: ""
+        }
+    }
+
+    componentWillMount() {
+        this.getWeek()
+    }
+
+    makeWeekString = () => {
+        var dateObj = new Date(this.state.week)
+        
+        var months = ["January", "Febuary", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
+
+        var date = dateObj.getDate()
+        var month = dateObj.getMonth()
+
+        this.setState({weekString: months[month] +  " " + date.toString()}) 
+    }
+
+    getWeek = () => {
+        fetch("/getDate").then(dateResponse => {
+            dateResponse.json().then(date => {
+                this.setState({ 
+                    week: date.date
+                })
+
+                this.makeWeekString()
+            })
+        })
+    }
+
     render() {
         return (
             <div id="menu" className="container">
                 <header>
                     <div className="row justify-content-center">
-                        <h2><span className="green_text">Menu</span></h2>
+                        <h2><span className="green_text">{`Menu for week of ${this.state.weekString}`}</span></h2>
                     </div>
                 </header>
                 <div className="row justify-content-center">
