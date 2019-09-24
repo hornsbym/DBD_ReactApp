@@ -20,8 +20,10 @@ class MenuSection extends React.Component {
         
         var months = ["January", "Febuary", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
 
-        var date = dateObj.getDate()
+        var date = dateObj.getDate() + 1
         var month = dateObj.getMonth()
+
+        console.log("date:", date, "month:", month)
 
         this.setState({weekString: months[month] +  " " + date.toString()}) 
     }
