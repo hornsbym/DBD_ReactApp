@@ -15,7 +15,10 @@ class Pricing extends React.Component {
             <p className="info_paragraphs">
               Our meals are prepared with value in mind. Each portion will suit a standard adult
               appetite… no microportioning! Please see our pricing guide below. (Tax is included)
-              </p>
+            </p>
+            <p className="info_paragraphs">
+              Effective January 6th, we will begin offering a quantity discount on our entrees for those looking to jump start their personal health goals for the new year.
+            </p>
           </div>
         </div>
         <div className="row justify-content-center">
@@ -23,16 +26,24 @@ class Pricing extends React.Component {
             <table className="table">
               <tbody>
                 <tr>
-                  <th>Adult's Entrees</th>
-                  <td>$8.25</td>
+                  <th>Individual entrees</th>
+                  <td>$8.50 each</td>
                 </tr>
                 <tr>
-                  <th>Kid's Meals</th>
-                  <td>$4.00</td>
+                  <th>Meal plans of 10+ entrees</th>
+                  <td>$8.25 each</td>
                 </tr>
                 <tr>
-                  <th>Side Items</th>
-                  <td>$2.50</td>
+                  <th>Meal plans of 14+ entrees</th>
+                  <td>$8.00 each</td>
+                </tr>
+                <tr>
+                  <th>Individual salads</th>
+                  <td>$3.00 each</td>
+                </tr>
+                <tr>
+                  <th>Salad orders of 5+ salads</th>
+                  <td>$2.50 each</td>
                 </tr>
               </tbody>
             </table>
