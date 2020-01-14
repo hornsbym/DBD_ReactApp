@@ -20,7 +20,7 @@ class HowItWorks extends React.Component {
                                 <br />
                                 <span className="small_text">* No long term commitment necessary!</span>
                                 <br />
-                                <span class="small_text">* All orders must be received before 9 PM on Friday of the preceding week</span>
+                                <span className="small_text">* All orders must be received before 9 PM on Friday of the preceding week</span>
                             </p>
                         </div>
                     </div>
@@ -34,9 +34,9 @@ class HowItWorks extends React.Component {
                                 <br />
                                 We will personally deliver your meals twice weekly to maximize on freshness.
                                 <br />
-                                <span class="small_text">** We’ll accept payment for the week upon delivery.</span>
+                                <span className="small_text">** We’ll accept payment for the week upon delivery.</span>
                                 <br />
-                                <span class="small_text">** Please contact us concerning our delivery area</span>
+                                <span className="small_text">** Please contact us concerning our delivery area</span>
                             </p>
                         </div>
                     </div>

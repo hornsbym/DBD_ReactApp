@@ -62,13 +62,14 @@ class MenuSection extends React.Component {
                         <table className="table">
                             <thead>
                                 <tr>
-                                    <th className="table_title">Side</th>
-                                    <th className="table_title">Gluten free</th>
-                                    <th className="table_title">Fat</th>
-                                    <th className="table_title">Carbs</th>
-                                    <th className="table_title">Protein</th>
-                                    <th className="table_title">Calories</th>
-                                </tr>                        </thead>
+                                    <td className="table_title">Side</td>
+                                    <td className="table_title">Gluten free</td>
+                                    <td className="table_title">Fat</td>
+                                    <td className="table_title">Carbs</td>
+                                    <td className="table_title">Protein</td>
+                                    <td className="table_title">Calories</td>
+                                </tr>
+                            </thead>
                             <tbody>
                                 <tr>
                                     <td>Garden salad</td>
@@ -96,7 +97,9 @@ class MenuSection extends React.Component {
                     <div className="table-responsive col-md-4">
                         <table className="table">
                             <thead>
-                                <th>Kid's Menu</th>
+                                <tr>
+                                    <td>Kid's Menu</td>                                
+                                </tr>
                             </thead>
                             <tbody>
                                 <tr>
@@ -113,9 +116,9 @@ class MenuSection extends React.Component {
                     </div>
                 </div>
                 <div className="row justify-content-center">
-                    <p>
-                        <td><span class="small_text">* All children's entrees are served with seasonal fruit</span></td>
-                    </p>
+                        <p>
+                            <span className="small_text">* All children's entrees are served with seasonal fruit</span>
+                        </p>
                 </div>
             </div>
         )

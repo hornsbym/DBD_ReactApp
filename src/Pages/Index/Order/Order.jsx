@@ -11,12 +11,12 @@ class Order extends React.Component {
                         </h2>
                     </header>
                 </div>
-                <div class="row justify-content-center">
+                <div className="row justify-content-center">
                     <p className="info_paragraphs col-md-8">
                         General inquiries are welcome anytime! We're happy to talk about our food and service day or night.
                     </p>
                 </div>
-                <div class="row justify-content-center">
+                <div className="row justify-content-center">
                     <p className="info_paragraphs col-md-8">
                         To place an order via text or email, simply let us know which entrees you'd care to enjoy and the
                         quantity of each. We will reach out to you at our earliest convenience to confirm and establish a

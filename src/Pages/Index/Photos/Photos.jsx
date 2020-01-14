@@ -1,4 +1,5 @@
 import React from 'react'
+import { Carousel } from 'react-bootstrap'
 
 import photo1 from "./img/20190225_213325.jpg"
 import photo2 from "./img/20190313_235159.jpg"
@@ -14,33 +15,29 @@ class Photos extends React.Component {
             <div id="photos" className="container">
                 <div className="row justify-content-center">
                     <header>
-                        <h2><span className="green_text">Photo Gallery</span></h2>
+                        <h2><span className="green_text">Photos</span></h2>
                     </header>
                 </div>
-                <div className="row">
-                    <figure className="col-md-6">
-                        <img className="img-responsive" src={photo1} alt="" />
-                    </figure>
-                    <figure class="col-md-6">
-                        <img className="img-responsive" src={photo2} alt="" />
-                    </figure>
-                </div>
-                <div className="row">
-                    <figure className="col-md-6">
-                        <img className="img-responsive" src={photo3} alt="" />
-                    </figure>
-                    <figure class="col-md-6">
-                        <img className="img-responsive" src={photo4} alt="" />
-                    </figure>
-                </div>
-                <div className="row">
-                    <figure className="col-md-6">
-                        <img className="img-responsive" src={photo5} alt="" />
-                    </figure>
-                    <figure class="col-md-6">
-                        <img className="img-responsive" src={photo6} alt="" />
-                    </figure>
-                </div>
+                <Carousel>
+                    <Carousel.Item>
+                        <img src={photo1} className="d-block w-100" alt=""/>
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img src={photo2} className="d-block w-100" alt=""/>
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img src={photo3} className="d-block w-100" alt=""/>
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img src={photo4} className="d-block w-100" alt=""/>
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img src={photo5} className="d-block w-100" alt=""/>
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img src={photo6} className="d-block w-100" alt=""/>
+                    </Carousel.Item>
+                </Carousel>
             </div>
         )
     }

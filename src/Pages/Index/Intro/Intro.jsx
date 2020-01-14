@@ -7,7 +7,7 @@ class Intro extends React.Component {
         return (
                 <div id="intro" className="container">
                     <div className="row justify-content-center">
-                        <figure id="intro_fig" class="col-md-5">
+                        <figure id="intro_fig" className="col-md-5">
                             <img src={logo} className="img-responsive" alt="The Dinners by Derek logo" />
                         </figure>
                     </div>
