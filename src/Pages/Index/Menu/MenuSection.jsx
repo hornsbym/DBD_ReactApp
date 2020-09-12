@@ -55,34 +55,84 @@ class MenuSection extends React.Component {
                     <MenuTable></MenuTable>
                 </div>
                 <div className="row justify-content-center">
-                    <h4>Sides</h4>
+                    <h4>Salads</h4>
                 </div>
                 <div className="row justify-content-center">
                     <div className="table-responsive">
                         <table className="table">
                             <thead>
                                 <tr>
-                                    <td className="table_title">Side</td>
+                                    <td className="table_title"></td>
                                     <td className="table_title">Gluten free</td>
                                     <td className="table_title">Fat</td>
                                     <td className="table_title">Carbs</td>
                                     <td className="table_title">Protein</td>
                                     <td className="table_title">Calories</td>
+                                    <td className="table_title">Price</td>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td>Garden salad</td>
+                                    <td>Kale Salad with Cranberry and Almond</td>
+                                    <td>Yes</td>
+                                    <td>10</td>
+                                    <td>8</td>
+                                    <td>8</td>
+                                    <td>200</td>
+                                    <td>$4</td>
+                                </tr>
+                                <tr>
+                                    <td>Garden Salad with Apple Cider Vinaigrette</td>
                                     <td>Yes</td>
                                     <td>4</td>
                                     <td>2</td>
                                     <td>0</td>
                                     <td>50</td>
+                                    <td>$3</td>
                                 </tr>
                             </tbody>
                         </table>
                     </div>
-
+                </div>
+                <div className="row justify-content-center">
+                    <h4>Snacks</h4>
+                </div>
+                <div className="row justify-content-center">
+                    <div className="table-responsive">
+                        <table className="table">
+                            <thead>
+                                <tr>
+                                    <td className="table_title"></td>
+                                    <td className="table_title">Gluten free</td>
+                                    <td className="table_title">Fat</td>
+                                    <td className="table_title">Carbs</td>
+                                    <td className="table_title">Protein</td>
+                                    <td className="table_title">Calories</td>
+                                    <td className="table_title">Price</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Chickpea Hummus with Crudite</td>
+                                    <td>No</td>
+                                    <td>30</td>
+                                    <td>20</td>
+                                    <td>8</td>
+                                    <td>350</td>
+                                    <td>$4</td>
+                                </tr>
+                                <tr>
+                                    <td>Yogurt Parfait with Fresh Fruit and Granola</td>
+                                    <td>No</td>
+                                    <td>6</td>
+                                    <td>63</td>
+                                    <td>18</td>
+                                    <td>365</td>
+                                    <td>$4</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
                 <div className="row justify-content-center">
                     <div className="info_paragraphs col-md-8 ">

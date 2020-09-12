@@ -28,12 +28,6 @@ class Order extends React.Component {
                             <tbody>
                                 <tr>
                                     <th>
-                                        <span className="green_text">Phone</span>
-                                    </th>
-                                    <td>(630)313-9576</td>
-                                </tr>
-                                <tr>
-                                    <th>
                                         <span className="green_text">Email</span>
                                     </th>
                                     <td>dinnersbyderek@gmail.com</td>
