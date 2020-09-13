@@ -16,9 +16,6 @@ class Pricing extends React.Component {
               Our meals are prepared with value in mind. Each portion will suit a standard adult
               appetite… no microportioning! Please see our pricing guide below. (Tax is included)
             </p>
-            <p className="info_paragraphs">
-              Effective January 6th, we will begin offering a quantity discount on our entrees for those looking to jump start their personal health goals for the new year.
-            </p>
           </div>
         </div>
         <div className="row justify-content-center">
@@ -38,7 +35,7 @@ class Pricing extends React.Component {
                   <td>$8.00 each</td>
                 </tr>
                 <tr>
-                  <th>Salad orders of 5+ salads</th>
+                  <th>Orders of 5+ garden salads</th>
                   <td>$2.50 each</td>
                 </tr>
               </tbody>
