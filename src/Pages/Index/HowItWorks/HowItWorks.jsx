@@ -13,14 +13,19 @@ class HowItWorks extends React.Component {
                             </div>
                             <p className="card-text">
                                 <strong>Make your selections</strong>
+                                <p>
+                                Each Monday we will release a unique menu of healthy, 
+                                chef inspired creations to be delivered the following week. 
+                                </p>  
+                                <p>
+                                After signing up at <a href="https://sendbottles.com/dinnersbyderek" 
+                                target="_blank" rel="noopener noreferrer">sendbottles.com/dinnersbyderek</a>, 
+                                you will be able to view the menu and order for the upcoming week!* No long term commitment necessary!
+                                </p>
                                 <br />
-                                Each Monday we will release a unique menu of classic entrees and
-                                chef inspired creations to be delivered the following week. Choose which meals you’d like to
-                                enjoy, as well as how many portions of each offering.
+                                <span className="small_text">*(All orders must be received before 9 PM on Friday of the preceding week,
+                                Late week orders' may also be placed prior to Sunday at 9 PM for Thursday delivery.)</span>
                                 <br />
-                                <span className="small_text">* No long term commitment necessary!</span>
-                                <br />
-                                <span className="small_text">* All orders must be received before 9 PM on Friday of the preceding week</span>
                             </p>
                         </div>
                     </div>
@@ -31,12 +36,10 @@ class HowItWorks extends React.Component {
                             </div>
                             <p className="card-text">
                                 <strong>Receive your food</strong>
-                                <br />
-                                We will personally deliver your meals twice weekly to maximize on freshness.
-                                <br />
-                                <span className="small_text">** We’ll accept payment for the week upon delivery.</span>
-                                <br />
-                                <span className="small_text">** Please contact us concerning our delivery area</span>
+                                <p>
+                                    We will personally deliver your meals twice weekly to maximize on freshness.**
+                                </p>
+                                <span className="small_text">**(Please contact us concerning our delivery area)</span>
                             </p>
                         </div>
                     </div>
@@ -47,13 +50,13 @@ class HowItWorks extends React.Component {
                             </div>
                             <p className="card-text">
                                 <strong>Heat and enjoy!</strong>
-                                <br />
-                                We use containers that are best suited to warm your food quickly and
-                                easily. Simply follow the enclosed directions and ring the dinner bell!
+                                <p>
+                                    We use containers that are best suited to warm your food quickly and
+                                    easily. Simply follow the enclosed directions and ring the dinner bell!
+                                </p>
                             </p>
                         </div>
                     </div>
-
                 </div>
             </div>
         )

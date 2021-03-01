@@ -27,19 +27,22 @@ class Pricing extends React.Component {
                   <td>$8.50 each</td>
                 </tr>
                 <tr>
-                  <th>Meal plans of 10+ entrees</th>
-                  <td>$8.25 each</td>
+                  <th>Individual salads</th>
+                  <td>$3 - $4.00 each</td>
                 </tr>
                 <tr>
-                  <th>Meal plans of 14+ entrees</th>
-                  <td>$8.00 each</td>
-                </tr>
-                <tr>
-                  <th>Orders of 5+ garden salads</th>
-                  <td>$2.50 each</td>
+                  <th>Kid's meals</th>
+                  <td>$5.00 each</td>
                 </tr>
               </tbody>
             </table>
+          </div>
+        </div>
+        <div className="row justify-content-center">
+          <div className="col-md-8">
+            <p className="info_paragraphs">
+              Orders over $100 may use coupon code BULK5 to receive 5% off!  
+            </p>
           </div>
         </div>
       </div>

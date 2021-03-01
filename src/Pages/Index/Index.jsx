@@ -4,7 +4,6 @@ import './Index.css'
 import Navbar from "./Navbar/Navbar"
 import Intro from "./Intro/Intro"
 import HowItWorks from "./HowItWorks/HowItWorks"
-import MenuSection from "./Menu/MenuSection"
 import Pricing from "./Pricing/Pricing"
 import Photos from "./Photos/Photos"
 import Order from "./Order/Order"
@@ -19,7 +18,6 @@ class App extends React.Component {
         <div id="body_components">
           <Intro></Intro>
           <HowItWorks></HowItWorks>
-          <MenuSection></MenuSection>
           <Pricing></Pricing>
           <Photos></Photos>
           <Delivery></Delivery>
