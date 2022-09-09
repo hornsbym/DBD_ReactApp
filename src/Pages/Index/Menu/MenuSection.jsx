@@ -45,7 +45,7 @@ class MenuSection extends React.Component {
             <div id="menu" className="container">
                 <header>
                     <div className="row justify-content-center">
-                        <h2><span className="green_text">{`Menu for week of ${this.state.weekString}`}</span></h2>
+                        <h2><span className="blue_text">{`Menu for week of ${this.state.weekString}`}</span></h2>
                     </div>
                 </header>
                 <div className="row justify-content-center">

@@ -7,7 +7,7 @@ class Order extends React.Component {
                 <div className="row justify-content-center">
                     <header>
                         <h2>
-                            <span className="green_text">Order</span>
+                            <span className="blue_text">Order</span>
                         </h2>
                     </header>
                 </div>
@@ -28,7 +28,7 @@ class Order extends React.Component {
                             <tbody>
                                 <tr>
                                     <th>
-                                        <span className="green_text">Email</span>
+                                        <span className="blue_text">Email</span>
                                     </th>
                                     <td>dinnersbyderek@gmail.com</td>
                                 </tr>

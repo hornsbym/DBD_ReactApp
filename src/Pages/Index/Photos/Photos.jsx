@@ -21,7 +21,7 @@ class Photos extends React.Component {
             <div id="photos" className="container">
                 <div className="row justify-content-center">
                     <header>
-                        <h2><span className="green_text">Photos</span></h2>
+                        <h2><span className="blue_text">Photos</span></h2>
                     </header>
                 </div>
                 <Carousel>

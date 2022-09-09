@@ -1,5 +1,5 @@
 #app_root {
-    background-color: #edf4d7;
+    background-color: #e1f3ff;
 }
 
 .info_paragraphs {
@@ -10,8 +10,8 @@
     font-size: .75em;
 }
 
-.green_text {
-    color: rgb(60, 127, 28);
+.blue_text {
+    color: #00416b;
 }
 
 #intro {

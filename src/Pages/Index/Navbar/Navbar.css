@@ -1,9 +1,9 @@
 .navbar {
-    background-color: rgb(60, 127, 28);
+    background-color: #00416b;
 }
 
 .navbar-brand {
-    background-color: rgb(60, 127, 28);
+    background-color: #00416b;
 }
 
 @media (max-width: 576px) {

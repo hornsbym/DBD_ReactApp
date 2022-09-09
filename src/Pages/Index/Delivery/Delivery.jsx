@@ -6,7 +6,7 @@ class Delivery extends React.Component {
             <div id="delivery" className="container">
                 <div className="row justify-content-center">
                     <header>
-                        <h2 className="green_text">Delivery</h2>
+                        <h2 className="blue_text">Delivery</h2>
                     </header>
                 </div>
                 <div className="row justify-content-center">

@@ -7,7 +7,7 @@ class Pricing extends React.Component {
       <div id="pricing" className="container">
         <div className="row justify-content-center">
           <header>
-            <h2><span className="green_text">Pricing</span></h2>
+            <h2><span className="blue_text">Pricing</span></h2>
           </header>
         </div>
         <div className="row justify-content-center">
