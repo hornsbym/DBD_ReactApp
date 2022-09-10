@@ -1,9 +1,6 @@
 import React from 'react'
 import { Carousel } from 'react-bootstrap'
 
-import photo1 from "./img/IMG-4766.JPG"
-import photo2 from "./img/IMG-4767.JPG"
-import photo3 from "./img/IMG-4768.JPG"
 import photo4 from "./img/IMG-4769.JPG"
 import photo5 from "./img/IMG-4770.JPG"
 import photo6 from "./img/IMG-4771.JPG"
@@ -25,15 +22,7 @@ class Photos extends React.Component {
                     </header>
                 </div>
                 <Carousel>
-                    <Carousel.Item>
-                        <img src={photo1} className="d-block w-100" alt=""/>
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <img src={photo2} className="d-block w-100" alt=""/>
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <img src={photo3} className="d-block w-100" alt=""/>
-                    </Carousel.Item>
+
                     <Carousel.Item>
                         <img src={photo4} className="d-block w-100" alt=""/>
                     </Carousel.Item>

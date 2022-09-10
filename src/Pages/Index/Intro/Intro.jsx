@@ -1,6 +1,7 @@
 import React from "react"
 import logo from "./logo.png"
 import "./Intro.css"
+import {BsFacebook, BsInstagram} from "react-icons/bs"
 
 class Intro extends React.Component {
     render() {
@@ -18,10 +19,14 @@ class Intro extends React.Component {
                             are delivered fresh for your convenience!
                         </p>
                     </div>
-                    <div className="row justify-content-center">
-                        <p>
-                            <a href="https://www.facebook.com/ChefDerekDouglas/">Check us out on Facebook here!</a>
-                        </p>
+                    <div className="row justify-content-center pb-2">
+                        <a className="social_icon" target="__blank" href="https://www.facebook.com/ChefDerekDouglas">
+                            <BsFacebook size={36}/>
+                        </a>
+                        <div style={{width:'1rem'}}/>
+                        <a className="social_icon" target="__blank" href="https://www.instagram.com/dinnersbyderek/">
+                            <BsInstagram size={36}/>
+                        </a>
                     </div>
                 </div>
         )

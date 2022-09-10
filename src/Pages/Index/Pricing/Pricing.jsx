@@ -24,11 +24,11 @@ class Pricing extends React.Component {
               <tbody>
                 <tr>
                   <th>Individual entrees</th>
-                  <td>$8.50 each</td>
+                  <td>$8.75 each</td>
                 </tr>
                 <tr>
                   <th>Individual salads</th>
-                  <td>$3 - $4.00 each</td>
+                  <td>$4.00 each</td>
                 </tr>
                 <tr>
                   <th>Kid's meals</th>

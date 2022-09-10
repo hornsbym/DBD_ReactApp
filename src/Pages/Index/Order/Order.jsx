@@ -13,16 +13,9 @@ class Order extends React.Component {
                 </div>
                 <div className="row justify-content-center">
                     <p className="info_paragraphs col-md-8">
-                        General inquiries are welcome anytime! We're happy to talk about our food and service day or night.
-                    </p>
+                    To place an order, please visit our order page at <a href="https://www.sendbottles.com/dinnersbyderek">sendbottles.com/dinnersbyderek</a></p>
                 </div>
-                <div className="row justify-content-center">
-                    <p className="info_paragraphs col-md-8">
-                        To place an order via text or email, simply let us know which entrees you'd care to enjoy and the
-                        quantity of each. We will reach out to you at our earliest convenience to confirm and establish a
-                        delivery location as well as a payment method.</p>
-                </div>
-                <div className="row justify-content-center">
+                {/* <div className="row justify-content-center">
                     <div className="table-responsive col-md-4">
                         <table className="table">
                             <tbody>
@@ -35,7 +28,7 @@ class Order extends React.Component {
                             </tbody>
                         </table>
                     </div>
-                </div>
+                </div> */}
             </div>
         )
     }
