@@ -24,11 +24,11 @@ class Pricing extends React.Component {
               <tbody>
                 <tr>
                   <th>Individual entrees</th>
-                  <td>$8.75 each</td>
+                  <td>$9.25 each</td>
                 </tr>
                 <tr>
                   <th>Individual salads</th>
-                  <td>$4.00 each</td>
+                  <td>$4.50 each</td>
                 </tr>
                 <tr>
                   <th>Kid's meals</th>
@@ -41,7 +41,7 @@ class Pricing extends React.Component {
         <div className="row justify-content-center">
           <div className="col-md-8">
             <p className="info_paragraphs">
-              Orders over $100 may use coupon code BULK5 to receive 5% off!  
+              Orders over $120 may use coupon code BULK5 to receive 5% off!  
             </p>
           </div>
         </div>

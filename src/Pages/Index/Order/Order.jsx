@@ -15,20 +15,6 @@ class Order extends React.Component {
                     <p className="info_paragraphs col-md-8">
                     To place an order, please visit our order page at <a href="https://www.sendbottles.com/dinnersbyderek">sendbottles.com/dinnersbyderek</a></p>
                 </div>
-                {/* <div className="row justify-content-center">
-                    <div className="table-responsive col-md-4">
-                        <table className="table">
-                            <tbody>
-                                <tr>
-                                    <th>
-                                        <span className="blue_text">Email</span>
-                                    </th>
-                                    <td>dinnersbyderek@gmail.com</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div> */}
             </div>
         )
     }
