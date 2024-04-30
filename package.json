@@ -14,7 +14,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build && cp -r /Users/mithorns1/Documents/Github/DBD_FULL_APP/DBD_ReactApp/build /Users/mithorns1/Documents/Github/DBD_FULL_APP/DBD_Express_App",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
