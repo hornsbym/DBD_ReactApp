@@ -18,8 +18,8 @@ class HowItWorks extends React.Component {
                                 chef inspired creations to be delivered the following week. 
                                 </p>  
                                 <p>
-                                After signing up at <a href="https://sendbottles.com/dinnersbyderek" 
-                                target="_blank" rel="noopener noreferrer">sendbottles.com/dinnersbyderek</a>, 
+                                After signing up at <a href="https://dinnersbyderek.bottle.com/" 
+                                target="_blank" rel="noopener noreferrer">dinnersbyderek.bottle.com</a>, 
                                 you will be able to view the menu and order for the upcoming week!* No long term commitment necessary!
                                 </p>
                                 <br />

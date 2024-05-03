@@ -13,7 +13,7 @@ class Order extends React.Component {
                 </div>
                 <div className="row justify-content-center">
                     <p className="info_paragraphs col-md-8">
-                    To place an order, please visit our order page at <a href="https://www.sendbottles.com/dinnersbyderek">sendbottles.com/dinnersbyderek</a></p>
+                    To place an order, please visit our order page at <a href="https://dinnersbyderek.bottle.com/">dinnersbyderek.bottle.com</a></p>
                 </div>
             </div>
         )
