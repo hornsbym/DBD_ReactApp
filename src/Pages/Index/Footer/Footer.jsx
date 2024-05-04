@@ -1,6 +1,4 @@
 import React from 'react'
-import "./Footer.css"
-
 
 class Footer extends React.Component {
 
@@ -8,7 +6,7 @@ class Footer extends React.Component {
         return (
             <div className="container-fluid">
                 <div className="row">
-                    <footer className="col-md-12 text-center">
+                    <footer className="w-full text-center bg-darkBlue text-white py-[1rem]">
                         <p>© 2019 Dinners by Derek</p>
                     </footer>
                 </div>

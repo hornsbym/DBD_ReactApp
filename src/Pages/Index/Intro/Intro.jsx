@@ -1,6 +1,5 @@
 import React from "react"
 import logo from "./logo.png"
-import "./Intro.css"
 import {BsFacebook, BsInstagram} from "react-icons/bs"
 
 class Intro extends React.Component {
@@ -9,7 +8,7 @@ class Intro extends React.Component {
                 <div id="intro" className="container">
                     <div className="row justify-content-center">
                         <figure id="intro_fig" className="col-md-5">
-                            <img src={logo} className="img-responsive" alt="The Dinners by Derek logo" />
+                            <img src={logo} className="img-responsive w-full" alt="The Dinners by Derek logo" />
                         </figure>
                     </div>
                     <div className="row justify-content-center">
@@ -20,11 +19,11 @@ class Intro extends React.Component {
                         </p>
                     </div>
                     <div className="row justify-content-center pb-2">
-                        <a className="social_icon" target="__blank" href="https://www.facebook.com/ChefDerekDouglas">
+                        <a className="size-[36px] text-darkBlue" target="__blank" href="https://www.facebook.com/ChefDerekDouglas">
                             <BsFacebook size={36}/>
                         </a>
                         <div style={{width:'1rem'}}/>
-                        <a className="social_icon" target="__blank" href="https://www.instagram.com/dinnersbyderek/">
+                        <a className="size-[36px] text-darkBlue" target="__blank" href="https://www.instagram.com/dinnersbyderek/">
                             <BsInstagram size={36}/>
                         </a>
                     </div>

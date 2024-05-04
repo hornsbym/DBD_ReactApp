@@ -1,5 +1,4 @@
 import React from "react"
-import "./Pricing.css"
 
 class Pricing extends React.Component {
   render() {

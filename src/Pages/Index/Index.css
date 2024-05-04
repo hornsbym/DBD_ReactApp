@@ -1,6 +1,6 @@
-#app_root {
-    background-color: #e1f3ff;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 .info_paragraphs {
     font-size: 1.25em;

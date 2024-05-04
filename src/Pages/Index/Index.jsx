@@ -13,9 +13,9 @@ import Footer from "./Footer/Footer"
 class App extends React.Component {
   render() {
     return (
-      <div id="app_root">
+      <div id="app_root" className='bg-lightBlue'>
         <Navbar></Navbar>
-        <div id="body_components">
+        <div id="body_components" >
           <Intro></Intro>
           <HowItWorks></HowItWorks>
           <Pricing></Pricing>
