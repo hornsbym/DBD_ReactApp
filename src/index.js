@@ -5,7 +5,6 @@ import { createRoot } from "react-dom/client";
 import {
   createBrowserRouter,
   RouterProvider,
-  BrowserRouter,
 } from "react-router-dom";
 import Home from "./Pages/Index/Index";
 import HowItWorks from "./Pages/HowItWorks";
