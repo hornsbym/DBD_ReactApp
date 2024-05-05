@@ -1,5 +1,6 @@
 import { Button } from "exceleration";
 import { BsBoxArrowUpRight } from "react-icons/bs";
+import { Link } from "react-router-dom";
 
 export default function Intro() {
   return (
@@ -27,12 +28,12 @@ export default function Intro() {
                 }
               />
             </a>
-            <a href="/how-it-works">
+            <Link href="/how-it-works">
               <Button
                 className="border-2 border-darkBlue text-darkBlue !rounded-none px-4"
                 label="Learn More"
               />
-            </a>
+            </Link>
           </div>
         </div>
       </div>
