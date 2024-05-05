@@ -28,7 +28,7 @@ export default function Intro() {
                 }
               />
             </a>
-            <Link href="/how-it-works">
+            <Link to="/how-it-works">
               <Button
                 className="border-2 border-darkBlue text-darkBlue !rounded-none px-4"
                 label="Learn More"
