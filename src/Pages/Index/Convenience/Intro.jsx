@@ -3,7 +3,9 @@ import { Button } from "exceleration";
 
 export default function Convenience() {
   return (
-    <section className={`flex flex-col lg:flex-row gap-12 lg:gap-16 justify-normal lg:justify-evenly`}>
+    <section
+      className={`flex flex-col lg:flex-row gap-12 lg:gap-16 justify-normal lg:justify-evenly`}
+    >
       <div className={`flex flex-col lg:w-1/2`}>
         <h1 className={`p-2 md:p-4 text-5xl md:text-7xl `}>
           Delicious, Health Meals Delivered Right to Your Door
@@ -17,24 +19,34 @@ export default function Convenience() {
             service, you can save time and still enjoy a variety of delicious
             options.
           </p>
-          <div className={`flex flex-col md:flex-row justify-center gap-4 text-xl`}>
+          <div
+            className={`flex flex-col md:flex-row justify-center gap-4 text-xl`}
+          >
             <div className={`flex flex-col gap-4 p-4 md:p-8`}>
-              <BsClockHistory className="size-[36px] md:size-[48px] self-center"/>
+              <BsClockHistory className="size-[36px] md:size-[48px] self-center" />
               <h2 className={`font-bold`}>Time Saving</h2>
-              <p>No more meal planning, grocery shopping, or cooking. Just heat and enjoy</p>
+              <p>
+                No more meal planning, grocery shopping, or cooking. Just heat
+                and enjoy
+              </p>
             </div>
             <div className={`flex flex-col gap-4 p-4 md:p-8`}>
-              <BsBasket className="size-[36px] md:size-[48px] self-center"/>
+              <BsBasket className="size-[36px] md:size-[48px] self-center" />
               <h2 className={`font-bold`}>Healthy Choices</h2>
-              <p>Our meals are carefully crafted with fresh ingredients to provide you with nutritious options.</p>
+              <p>
+                Our meals are carefully crafted with fresh ingredients to
+                provide you with nutritious options.
+              </p>
             </div>
           </div>
           <div className={`flex flex-row justify-center gap-4`}>
-            <Button
-              className="bg-darkBlue text-white !rounded-none px-4"
-              href="/"
-              label="Order Now"
-            />
+            <a href="https://dinnersbyderek.bottle.com/" target="__blank">
+              <Button
+                className="bg-darkBlue text-white !rounded-none px-4"
+                href="/"
+                label="Order Now"
+              />
+            </a>
             <Button
               className="border-2 border-darkBlue text-darkBlue !rounded-none px-4"
               label="Learn More"
@@ -46,7 +58,7 @@ export default function Convenience() {
         <div
           className={`w-full bg-cover bg-center aspect-square self-center`}
           style={{ backgroundImage: "url(/chopped_italian_salad.jpg)" }}
-        />        
+        />
       </div>
     </section>
   );
