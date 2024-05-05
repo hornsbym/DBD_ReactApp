@@ -1,4 +1,5 @@
 import { Button } from "exceleration";
+import { BsBoxArrowUpRight } from "react-icons/bs";
 
 export default function Intro() {
   return (
@@ -19,7 +20,11 @@ export default function Intro() {
             <a href="https://dinnersbyderek.bottle.com/" target="__blank">
               <Button
                 className="bg-darkBlue text-white !rounded-none px-4"
-                label="Order Now"
+                label={
+                  <p className="flex flex-row items-center gap-2">
+                    Order now <BsBoxArrowUpRight />
+                  </p>
+                }
               />
             </a>
             <a href="/how-it-works">
