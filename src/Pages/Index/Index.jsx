@@ -13,7 +13,7 @@ export default function App () {
           <div className={`flex flex-col gap-32 md:gap-48 w-[93.75%] md:w-[87.5%]`}>
             <Intro />
             <Convenience />
-          </div>          
+          </div>           
         </div>
         <Footer></Footer>
       </div>
