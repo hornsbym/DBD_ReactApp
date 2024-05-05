@@ -1,7 +1,7 @@
 import React from "react";
 import { BsBoxArrowUpRight } from "react-icons/bs";
 
-const stepCardClassnames = "flex flex-grow xl:max-w-[48%]";
+const stepCardClassnames = "xl:max-w-[48%]";
 
 export default function Steps() {
   return (
@@ -15,7 +15,7 @@ export default function Steps() {
       >
         How It Works
       </h1>
-      <div className={`flex flex-col lg:flex-row gap-8 flex-wrap justify-center`}>
+      <div className={`flex flex-col lg:flex-row gap-4 md:gap-8 flex-wrap justify-center`}>
         <StepCard
           stepNumber={1}
           title="Sign up"
@@ -28,9 +28,9 @@ export default function Steps() {
                 href="https://dinnersbyderek.bottle.com/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex flex-row items-baseline gap-2 underline"
+                className="flex flex-row items-baseline gap-2 underline truncate"
               >
-                https://dinnersbyderek.bottle.com <BsBoxArrowUpRight />
+                dinnersbyderek.bottle.com <BsBoxArrowUpRight />
               </a>{" "}
               to sign up.
             </p>
@@ -56,9 +56,9 @@ export default function Steps() {
                 href="https://dinnersbyderek.bottle.com/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex flex-row items-baseline gap-2 underline"
+                className="flex flex-row items-baseline gap-2 underline truncate"
               >
-                https://dinnersbyderek.bottle.com <BsBoxArrowUpRight />
+                dinnersbyderek.bottle.com <BsBoxArrowUpRight />
               </a>
               to view the menu and place an order for the upcoming week.
             </p>
@@ -108,13 +108,13 @@ export default function Steps() {
 function StepCard({ stepNumber, title, children, className }) {
   return (
     <div
-      className={`flex flex-row gap-6 ${className ? className : ""} p-8`}
+      className={`flex flex-col sm: flex-row gap-6 p-4 md:p-8 ${className ? className : ""} `}
       style={{
         backgroundColor: "#ffffff",
         backgroundImage: `url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23e1f3ff' fill-opacity='0.4' fill-rule='evenodd'%3E%3Ccircle cx='3' cy='3' r='3'/%3E%3Ccircle cx='13' cy='13' r='3'/%3E%3C/g%3E%3C/svg%3E")`,
       }}
     >
-      <p className="flex flex-row text-4xl text-white rounded-full bg-darkBlue h-[60px] aspect-square justify-center items-center">
+      <p className="flex flex-row text-4xl text-white rounded-full bg-darkBlue h-[60px] w-[60px] aspect-square justify-center items-center self-center">
         {stepNumber}
       </p>
       <div className={`flex flex-col text-xl gap-4`}>
