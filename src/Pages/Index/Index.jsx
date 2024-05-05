@@ -1,32 +1,21 @@
 import React from 'react'
 import './Index.css'
-
-import Navbar from "./Navbar/Navbar"
+import Navbar from './Navbar'
 import Intro from "./Intro/Intro"
-import HowItWorks from "./HowItWorks/HowItWorks"
-import Pricing from "./Pricing/Pricing"
-import Photos from "./Photos/Photos"
-import Order from "./Order/Order"
-import Delivery from "./Delivery/Delivery"
 import Footer from "./Footer/Footer"
+import Convenience from './Convenience/Intro'
 
-class App extends React.Component {
-  render() {
+export default function App () {
     return (
-      <div id="app_root" className='bg-lightBlue'>
+      <div id="app_root">
         <Navbar></Navbar>
-        <div id="body_components" >
-          <Intro></Intro>
-          <HowItWorks></HowItWorks>
-          <Pricing></Pricing>
-          <Photos></Photos>
-          <Delivery></Delivery>
-          <Order></Order>
-          <Footer></Footer>
+        <div className={`flex flex-row py-32 justify-center`}>
+          <div className={`flex flex-col gap-32 md:gap-48 w-[93.75%] md:w-[87.5%]`}>
+            <Intro />
+            <Convenience />
+          </div>          
         </div>
+        <Footer></Footer>
       </div>
       )
-    }
 }
-
-export default App

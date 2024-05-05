@@ -1,35 +1,35 @@
-import React from "react"
-import logo from "./logo.png"
-import {BsFacebook, BsInstagram} from "react-icons/bs"
+import { Button } from "exceleration";
 
-class Intro extends React.Component {
-    render() {
-        return (
-                <div id="intro" className="container">
-                    <div className="row justify-content-center">
-                        <figure id="intro_fig" className="col-md-5">
-                            <img src={logo} className="img-responsive w-full" alt="The Dinners by Derek logo" />
-                        </figure>
-                    </div>
-                    <div className="row justify-content-center">
-                        <p className="info_paragraphs col-md-8">
-                            Dinners by Derek is a prepared foods service that is designed to simplify
-                            mealtime. We offer wholesome, nutritious, and diverse weekly menus that
-                            are delivered fresh for your convenience!
-                        </p>
-                    </div>
-                    <div className="row justify-content-center pb-2">
-                        <a className="size-[36px] text-darkBlue" target="__blank" href="https://www.facebook.com/ChefDerekDouglas">
-                            <BsFacebook size={36}/>
-                        </a>
-                        <div style={{width:'1rem'}}/>
-                        <a className="size-[36px] text-darkBlue" target="__blank" href="https://www.instagram.com/dinnersbyderek/">
-                            <BsInstagram size={36}/>
-                        </a>
-                    </div>
-                </div>
-        )
-    }
+export default function Intro() {
+  return (
+      <section className={`flex flex-col gap-12 md:gap-16`}>
+        <div className={`flex flex-col md:flex-row`}>
+          <h1 className={`p-2 md:p-4 text-5xl md:text-7xl `}>
+            Delicious, Health Meals Delivered to Your Doorstep
+          </h1>
+          <div className={`flex flex-col text-xl gap-8 md:gap-12 p-2 md:p-4 md:text-2xl`}>
+            <p>
+              Experience the convenience and health benefits of our prepared
+              meals. Order now and enjoy delicious, nutritious dishes without
+              the hassle of cooking.
+            </p>
+            <div className={`flex flex-row justify-center gap-4`}>
+              <Button
+                className="bg-darkBlue text-white !rounded-none px-4"
+                href="/"
+                label="Order Now"
+              />
+              <Button
+                className="border-2 border-darkBlue text-darkBlue !rounded-none px-4"
+                label="Learn More"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          className={`w-full bg-cover bg-center aspect-video`}
+          style={{ backgroundImage: "url(/hot_mess_sweet_potato_bowl.jpg)" }}
+        />
+      </section>
+  );
 }
-
-export default Intro

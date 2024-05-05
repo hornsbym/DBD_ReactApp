@@ -1,12 +1,14 @@
-import React from 'react'
-import Index from "./Index/Index"
+import React from "react";
+import Index from "./Index/Index";
 
 class App extends React.Component {
-    render() {
-        return(
-            <Index/>
-        )
-    }
+  render() {
+    return (
+      <div className="bg-lightBlue">
+        <Index />
+      </div>
+    );
+  }
 }
 
 export default App;
