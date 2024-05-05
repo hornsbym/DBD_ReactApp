@@ -19,15 +19,15 @@ export default function Intro() {
             <a href="https://dinnersbyderek.bottle.com/" target="__blank">
               <Button
                 className="bg-darkBlue text-white !rounded-none px-4"
-                href="/"
                 label="Order Now"
               />
             </a>
-
-            <Button
-              className="border-2 border-darkBlue text-darkBlue !rounded-none px-4"
-              label="Learn More"
-            />
+            <a href="/how-it-works">
+              <Button
+                className="border-2 border-darkBlue text-darkBlue !rounded-none px-4"
+                label="Learn More"
+              />
+            </a>
           </div>
         </div>
       </div>

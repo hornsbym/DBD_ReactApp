@@ -1,4 +1,4 @@
-import { BsClockHistory, BsBasket } from "react-icons/bs";
+import { BsClockHistory, BsBasket, BsBoxArrowUpRight, BsChevronRight } from "react-icons/bs";
 import { Button } from "exceleration";
 
 export default function Convenience() {
@@ -7,9 +7,9 @@ export default function Convenience() {
       className={`flex flex-col lg:flex-row gap-12 lg:gap-16 justify-normal lg:justify-evenly`}
     >
       <div className={`flex flex-col lg:w-1/2`}>
-        <h1 className={`p-2 md:p-4 text-5xl md:text-7xl `}>
+        <h2 className={`p-2 md:p-4 text-5xl md:text-7xl `}>
           Delicious, Health Meals Delivered Right to Your Door
-        </h1>
+        </h2>
         <div
           className={`flex flex-col text-xl gap-8 md:gap-12 p-2 md:p-4 md:text-2xl`}
         >
@@ -44,13 +44,21 @@ export default function Convenience() {
               <Button
                 className="bg-darkBlue text-white !rounded-none px-4"
                 href="/"
-                label="Order Now"
+                label={
+                  <p className="flex flex-row items-center gap-2">
+                    Order now <BsBoxArrowUpRight />
+                  </p>
+                }
               />
             </a>
-            <Button
-              className="border-2 border-darkBlue text-darkBlue !rounded-none px-4"
-              label="Learn More"
-            />
+            <a href="/how-it-works">
+              <Button
+                className="border-0 text-darkBlue !rounded-none px-4"
+                label={<p  className="flex flex-row items-center gap-2">
+                  Learn More <BsChevronRight />
+                </p>}
+              />
+            </a>
           </div>
         </div>
       </div>

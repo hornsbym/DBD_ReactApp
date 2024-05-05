@@ -13,7 +13,7 @@ const navbuttonClasses = `
 
 export default function Navbar() {
   return (
-    <nav className="fixed top-0 left-0 right-0 bg-white z-10">
+    <nav className="fixed top-0 left-0 right-0 z-10 bg-white">
       <div className="flex flex-row justify-between">
         <div className="flex w-[5rem] sm:w-[7rem] ml-2">
           <a href="/">
@@ -35,14 +35,8 @@ export default function Navbar() {
               <BsBoxArrowUpRight />
             </div>
           </a>
-          <a className={`${navbuttonClasses}`} href="#pricing">
-            Pricing
-          </a>
-          <a className={`${navbuttonClasses}`} href="#about-us">
-            About Us
-          </a>
-          <a className={`${navbuttonClasses}`} href="#delivery">
-            Delivery
+          <a className={`${navbuttonClasses}`} href="/how-it-works">
+            How It Works
           </a>
         </div>
       </div>
