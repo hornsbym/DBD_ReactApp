@@ -1,4 +1,5 @@
 import { BsBoxArrowUpRight } from "react-icons/bs";
+import { Link } from "react-router-dom";
 
 const navbuttonClasses = `
   flex 
@@ -35,9 +36,9 @@ export default function Navbar() {
               <BsBoxArrowUpRight />
             </div>
           </a>
-          <a className={`${navbuttonClasses}`} href="/how-it-works">
+          <Link className={`${navbuttonClasses}`} to="/how-it-works">
             How It Works
-          </a>
+          </Link>
         </div>
       </div>
     </nav>

@@ -17,7 +17,7 @@ export default function Pricing() {
         className={`flex flex-col md:w-1/2 p-4 bg-white text-xl gap-4 justify-center m-4`}
       >
         <div className={`flex flex-row justify-between`}>
-          <p className={`font-bold`} p>
+          <p className={`font-bold`}>
             Individual entrees
           </p>
           <p>$9.25 each</p>

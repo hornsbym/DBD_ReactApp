@@ -1,4 +1,10 @@
-import { BsClockHistory, BsBasket, BsBoxArrowUpRight, BsChevronRight } from "react-icons/bs";
+import {
+  BsClockHistory,
+  BsBasket,
+  BsBoxArrowUpRight,
+  BsChevronRight,
+} from "react-icons/bs";
+import { Link } from "react-router-dom";
 import { Button } from "exceleration";
 
 export default function Convenience() {
@@ -51,14 +57,16 @@ export default function Convenience() {
                 }
               />
             </a>
-            <a href="/how-it-works">
+            <Link to="/how-it-works">
               <Button
                 className="border-0 text-darkBlue !rounded-none px-4"
-                label={<p  className="flex flex-row items-center gap-2">
-                  Learn More <BsChevronRight />
-                </p>}
+                label={
+                  <p className="flex flex-row items-center gap-2">
+                    Learn More <BsChevronRight />
+                  </p>
+                }
               />
-            </a>
+            </Link>
           </div>
         </div>
       </div>
