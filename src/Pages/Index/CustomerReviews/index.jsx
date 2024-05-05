@@ -50,7 +50,7 @@ const Review = ({ stars, review, reviewer, medium }) => {
     <BsStar />,
   ];
   for (let i = 0; i < stars; i++) {
-    starWidgets[i] = <BsStarFill />;
+    starWidgets[i] = <BsStarFill  key={`${i}-${reviewer}`}/>;
   }
 
   return (

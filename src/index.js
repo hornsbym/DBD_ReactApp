@@ -7,12 +7,14 @@ import Home from "./Pages/Index/Index";
 import HowItWorks from "./Pages/HowItWorks";
 import Navbar from "./Components/Navbar";
 import Footer from "./Components/Footer";
+import ScrollToTop from "./Components/ScrollToTop";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: (
       <div className="bg-lightBlue">
+        <ScrollToTop />
         <Navbar />
         <div className={`flex flex-row py-32 justify-center`}>
           <div
@@ -30,6 +32,7 @@ const router = createBrowserRouter([
     path: "how-it-works",
     element: (
       <div className="bg-lightBlue">
+        <ScrollToTop />
         <Navbar />
         <div className={`flex flex-row py-32 justify-center`}>
           <div
