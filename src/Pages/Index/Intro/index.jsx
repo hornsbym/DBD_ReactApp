@@ -44,7 +44,7 @@ export default function Intro() {
       </SectionContainer>
 
       <div
-        className={`w-full bg-cover aspect-square md:aspect-video bg-fixed bg-top`}
+        className={`w-full bg-cover aspect-square md:aspect-video bg-scroll sm:bg-fixed bg-top`}
         style={{ backgroundImage: "url(/hot_mess_sweet_potato_bowl.jpg)" }}
       />
     </section>

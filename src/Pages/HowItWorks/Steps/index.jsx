@@ -8,7 +8,7 @@ export default function Steps() {
   return (
     <section className={`flex flex-col gap-12 md:gap-16`}>
       <h1
-        className={`flex flex-col justify-end lg:justify-normal text-white text-5xl lg:text-7xl aspect-square lg:aspect-auto px-8 lg:px-16 pt-32 lg:pt-64 pb-8 lg:pb-24 bg-cover bg-bottom bg-fixed`}
+        className={`flex flex-col justify-end lg:justify-normal text-white text-5xl lg:text-7xl aspect-square lg:aspect-auto px-8 lg:px-16 pt-32 lg:pt-64 pb-8 lg:pb-24 bg-cover bg-bottom bg-scroll sm:bg-fixed`}
         style={{
           backgroundImage:
             "linear-gradient(0deg, rgba(0, 0, 0, 0.425), rgba(0, 0, 0, 0.425)), url(greek_chopped_salad.jpg)",

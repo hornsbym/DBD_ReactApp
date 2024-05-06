@@ -6,10 +6,12 @@ const navbuttonClasses = `
   px-4 
   items-center 
   text-darkBlue 
+  text-xs
+  font-bold
+  sm:text-base
   hover:border-darkBlue 
   hover:border-b-[2px]
   hover:no-underline 
-  hover:text-darkBlue
 `;
 
 export default function Navbar() {
@@ -25,7 +27,7 @@ export default function Navbar() {
             />
           </a>
         </div>
-        <div className="hidden md:flex md:flex-row">
+        <div className="flex flex-row mr-4">
           <a
             className={`${navbuttonClasses}`}
             href="https://dinnersbyderek.bottle.com/"
