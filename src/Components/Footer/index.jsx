@@ -8,9 +8,11 @@ export default function Footer() {
       <div className="flex flex-row gap-4 text-[48px]">
         <a href="https://www.facebook.com/ChefDerekDouglas" target="__blank" >
           <BsFacebook />
+          <span className="hidden">Link to Facebook</span>
         </a>
         <a href="https://www.instagram.com/dinnersbyderek/" target="__blank">
           <BsInstagram />
+          <span className="hidden">Link to Facebook</span>
         </a>
       </div>
     </footer>
