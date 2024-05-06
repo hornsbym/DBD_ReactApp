@@ -16,7 +16,7 @@ export default function Convenience() {
       >
         <div className={`flex flex-col lg:w-1/2`}>
           <h2 className={`p-2 md:p-4 text-5xl md:text-7xl `}>
-            Delicious, Health Meals Delivered Right to Your Door
+            Delicious, Healthy Meals Delivered Right to Your Door
           </h2>
           <div
             className={`flex flex-col text-xl gap-8 md:gap-12 p-2 md:p-4 md:text-2xl`}

@@ -11,7 +11,7 @@ export default function Intro() {
       <SectionContainer>
         <div className={`flex flex-col md:flex-row bg-lightBlue`}>
           <h1 className={`p-2 md:p-4 text-5xl md:text-7xl `}>
-            Delicious, Health Meals Delivered to Your Doorstep
+            Delicious, Healthy Meals Delivered to Your Doorstep
           </h1>
           <div
             className={`flex flex-col text-xl gap-8 md:gap-12 p-2 md:p-4 md:text-2xl`}
