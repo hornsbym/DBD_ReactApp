@@ -17,13 +17,10 @@ const router = createBrowserRouter([
         <ScrollToTop />
         <Navbar />
         <div className={`flex flex-row py-32 justify-center`}>
-          <div
-            className={`flex flex-col gap-32 md:gap-48 w-[93.75%] md:w-[87.5%]`}
-          >
+          <div className={`flex flex-col gap-24 md:gap-48`}>
             <Home />
           </div>
         </div>
-
         <Footer />
       </div>
     ),
@@ -35,9 +32,7 @@ const router = createBrowserRouter([
         <ScrollToTop />
         <Navbar />
         <div className={`flex flex-row py-32 justify-center`}>
-          <div
-            className={`flex flex-col gap-32 md:gap-48 w-[93.75%] md:w-[87.5%]`}
-          >
+          <div className={`flex flex-col gap-24 md:gap-48`}>
             <HowItWorks />
           </div>
         </div>
