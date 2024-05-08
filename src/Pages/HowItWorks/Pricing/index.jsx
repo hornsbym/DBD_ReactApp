@@ -16,7 +16,7 @@ export default function Pricing() {
           </p>
         </div>
         <div
-          className={`flex flex-col md:w-1/2 p-4 bg-white text-xl gap-4 justify-center m-4`}
+          className={`flex flex-col md:w-1/2 p-4 bg-white text-xl gap-4 justify-center m-4 border-2 border-darkBlue`}
         >
           <div className={`flex flex-row justify-between`}>
             <p className={`font-bold`}>

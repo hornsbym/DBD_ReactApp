@@ -99,7 +99,7 @@ export default function FAQ() {
 function FAQTile({ question, answer }) {
   const [isExpanded, setIsExpanded] = useState(false)
   return (
-    <div className='flex flex-col'>
+    <div className='flex flex-col border-2 border-darkBlue'>
       <h2 className={`flex flex-row bg-darkBlue text-white hover:cursor-pointer text-xl sm:text-2xl p-4 gap-4 items-center`}
         onClick={() => setIsExpanded(!isExpanded)}>
         {isExpanded ? <BsChevronUp className="shrink-0" /> : <BsChevronDown className="shrink-0" />} {question} 

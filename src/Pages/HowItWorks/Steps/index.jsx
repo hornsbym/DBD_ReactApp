@@ -112,15 +112,18 @@ export default function Steps() {
 function StepCard({ stepNumber, title, children, className }) {
   return (
     <div
-      className={`block w-full gap-6 p-4 md:p-8 ${className ? className : ""} `}
+      className={`block w-full gap-6 p-4 md:p-8 ${className ? className : ""} border-2 border-darkBlue`}
       style={{
         backgroundColor: "#ffffff",
         backgroundImage: `url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23e1f3ff' fill-opacity='0.4' fill-rule='evenodd'%3E%3Ccircle cx='3' cy='3' r='3'/%3E%3Ccircle cx='13' cy='13' r='3'/%3E%3C/g%3E%3C/svg%3E")`,
       }}
     >
-      <p className="flex flex-row text-4xl text-white rounded-full bg-darkBlue h-[60px] w-[60px] aspect-square justify-center items-center self-center">
-        {stepNumber}
-      </p>
+      <div className="flex flex-row justify-center w-full">
+        <p className="flex flex-row justify-center text-4xl text-white rounded-full bg-darkBlue h-[60px] w-[60px] aspect-square items-center">
+          {stepNumber}
+        </p>
+      </div>
+
       <div className={`flex flex-col text-xl gap-4`}>
         <h3 className="text-2xl font-bold">{title}</h3>
         {children}
