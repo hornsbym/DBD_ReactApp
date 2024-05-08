@@ -3,7 +3,7 @@ import SectionContainer from "../../../Components/SectionContainer";
 
 export default function CustomerReviews() {
   return (
-    <div className={`flex flex-row justify-center bg-cover bg-center`} style={{ backgroundImage: "linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(firehouse_chili.jpg)" }}>
+    <div className={`flex flex-row justify-center bg-cover bg-center`} style={{ backgroundImage: "linear-gradient(0deg, rgba(0, 0, 0, 0.68), rgba(0, 0, 0, 0.68)), url(firehouse_chili.jpg)" }}>
       <SectionContainer>
         <section className={`flex flex-col gap-12 lg:gap-16 justify-normal text-white py-8`}>
           <div className={`flex flex-col`}>
