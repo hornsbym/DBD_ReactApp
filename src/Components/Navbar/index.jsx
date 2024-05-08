@@ -7,9 +7,8 @@ const navbuttonClasses = `
   px-4 
   items-center 
   text-darkBlue 
-  text-xs
-  font-bold
-  sm:text-base
+  text-base
+  sm:text-xl
   hover:border-darkBlue 
   hover:border-b-[2px]
   hover:no-underline 
