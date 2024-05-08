@@ -6,7 +6,7 @@ const stepCardClassnames = "xl:max-w-[48%]";
 
 export default function Steps() {
   return (
-    <section className={`flex flex-col gap-12 md:gap-16`}>
+    <section className={`w-full flex flex-col gap-12 md:gap-16`}>
       <h1
         className={`flex flex-col justify-end lg:justify-normal text-white text-5xl lg:text-7xl aspect-square lg:aspect-auto px-8 lg:px-16 pt-32 lg:pt-64 pb-8 lg:pb-24 bg-cover bg-bottom bg-scroll sm:bg-fixed`}
         style={{
@@ -112,7 +112,7 @@ export default function Steps() {
 function StepCard({ stepNumber, title, children, className }) {
   return (
     <div
-      className={`flex flex-col sm: flex-row gap-6 p-4 md:p-8 ${className ? className : ""} `}
+      className={`block w-full gap-6 p-4 md:p-8 ${className ? className : ""} `}
       style={{
         backgroundColor: "#ffffff",
         backgroundImage: `url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23e1f3ff' fill-opacity='0.4' fill-rule='evenodd'%3E%3Ccircle cx='3' cy='3' r='3'/%3E%3Ccircle cx='13' cy='13' r='3'/%3E%3C/g%3E%3C/svg%3E")`,

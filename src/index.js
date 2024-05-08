@@ -5,39 +5,32 @@ import { createRoot } from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from "./Pages/Index/Index";
 import HowItWorks from "./Pages/HowItWorks";
-import Navbar from "./Components/Navbar";
-import Footer from "./Components/Footer";
-import ScrollToTop from "./Components/ScrollToTop";
+import PageContainer from "./Components/PageContainer";
+import FAQPage from "./Pages/FAQ";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: (
-      <div className="bg-lightBlue">
-        <ScrollToTop />
-        <Navbar />
-        <div className={`flex flex-row py-32 justify-center`}>
-          <div className={`flex flex-col gap-24 md:gap-48`}>
-            <Home />
-          </div>
-        </div>
-        <Footer />
-      </div>
+      <PageContainer>
+        <Home />
+      </PageContainer>
     ),
   },
   {
     path: "how-it-works",
     element: (
-      <div className="bg-lightBlue">
-        <ScrollToTop />
-        <Navbar />
-        <div className={`flex flex-row py-32 justify-center`}>
-          <div className={`flex flex-col gap-24 md:gap-48`}>
-            <HowItWorks />
-          </div>
-        </div>
-        <Footer />
-      </div>
+      <PageContainer>
+        <HowItWorks />
+      </PageContainer>
+    ),
+  },
+  {
+    path: "faqs",
+    element: (
+      <PageContainer>
+        <FAQPage />
+      </PageContainer>
     ),
   },
 ]);

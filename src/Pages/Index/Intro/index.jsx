@@ -9,7 +9,9 @@ export default function Intro() {
       className={`flex flex-col gap-12 md:gap-16 items-center`}
     >
       <SectionContainer>
-        <div className={`flex flex-col md:flex-row bg-lightBlue`}>
+        <div
+          className={`flex flex-col md:flex-row bg-lightBlue`}
+        >
           <h1 className={`p-2 md:p-4 text-5xl md:text-7xl `}>
             Delicious, Healthy Meals Delivered to Your Doorstep
           </h1>
