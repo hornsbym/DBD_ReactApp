@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "bootstrap": "^4.4.1",
     "exceleration": "^0.0.30",
     "http2": "^3.3.7",
